@@ -2,16 +2,14 @@
 Die Alarmanzeige ist eine Alarmfax/Alarmmail/DME - Auswertung und Darstellung. Dieses Repository beinhaltet das Backend 
 der Alarmanzeige ab.
 
-##Das Backend enthält:
+## Das Backend enthält:
 
-###Hintergrunddienste
-- ####Faxauswertung  
+### 1. Hintergrunddienste
+- #### Faxauswertung  
    _Es ist ein Konvertieren von PDF oder TIFF Dateien in Text nötig_
-  - #####Hylafax  
+  - ##### Hylafax  
     _Ein USB Modem empfängt mit Hilfe von Hylafax das Fax. Hylafax legt das Fax in den lokalen Pfad des faxusers_ 
-  - ######FTP  
+  - ###### FTP  
     _Wenn eine Fritzbox/TK/Multifunktionsgerät das Fax annimmt legt der Empfänger das Fax (PDF/TIFF) in den FTP auf dem Raspberry (ftpuser)_
        
-- ####Updater 
-- 
-- 
+### 2. Updater 
